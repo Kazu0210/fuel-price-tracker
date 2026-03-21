@@ -1,4 +1,7 @@
+
+'use client';
 import 'leaflet/dist/leaflet.css';
+import React from 'react';
 
 export default function LeafletMap() {
   // Default coordinates (e.g., London)

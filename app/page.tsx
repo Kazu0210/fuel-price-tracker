@@ -1,6 +1,4 @@
-import dynamic from 'next/dynamic';
-
-const LeafletMap = dynamic(() => import('./LeafletMap'), { ssr: false });
+import LeafletMap from './LeafletMap';
 
 export default function Home() {
     return (

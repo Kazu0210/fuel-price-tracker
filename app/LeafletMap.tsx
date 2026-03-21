@@ -27,6 +27,14 @@ export default function LeafletMap() {
 
   return (
     <div className="relative w-full h-screen">
+      {/* Floating input field */}
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-[1000] w-full max-w-xs px-4">
+        <input
+          type="text"
+          placeholder="Search or enter location..."
+          className="w-full rounded-lg border border-gray-300 bg-white bg-opacity-90 px-4 py-2 shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+      </div>
       <MapContainer center={position} zoom={13} style={{ height: '100%', width: '100%' }}>
         <TileLayer
           attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'

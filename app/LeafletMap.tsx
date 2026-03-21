@@ -26,7 +26,7 @@ export default function LeafletMap() {
   }
 
   return (
-    <div className="relative w-full" style={{ height: '400px' }}>
+    <div className="relative w-full h-screen">
       {/* Floating input card */}
       <div className="absolute left-1/2 top-4 z-[1000] -translate-x-1/2 w-full max-w-md px-4 flex justify-center">
         <div className="bg-white/90 dark:bg-gray-900/90 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 w-full flex items-center gap-2">

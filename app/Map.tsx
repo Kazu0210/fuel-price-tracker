@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { JSX, useEffect, useState } from "react";
 
 export default function Map() {
     const [LeafletMap, setLeafletMap] = useState<JSX.Element | null>(null);

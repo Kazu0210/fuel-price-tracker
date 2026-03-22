@@ -1,8 +1,9 @@
-import LeafletMap from './LeafletMap';
+import Map from "./Map";
 
 export default function Home() {
     return (
         <div className="relative w-full h-screen">
+            <Map />
         </div>
     );
 }

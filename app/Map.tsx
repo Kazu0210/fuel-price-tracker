@@ -21,8 +21,8 @@ export default function Map() {
     }, []);
 
     return (
-        <div className="w-full h-full" style={{ height: "100%", width: "100%" }}>
-        {LeafletMap}
+        <div className="w-full h-full relative z-0" style={{ height: "100%", width: "100%" }}>
+            {LeafletMap}
         </div>
     );
 }
